@@ -3,7 +3,7 @@ import Banner from 'components/Banner'
 import Header from 'components/Header'
 import LargeCard from 'components/LargeCard'
 import MediumCard from 'components/MediumCard'
-import SmallCard from 'components/Smallcard'
+import SmallCard from 'components/SmallCard'
 import Head from 'next/head'
 
 export default function Home({ exploreData,cardsData }) {
@@ -78,3 +78,5 @@ export async function getStaticProps(){
     },
   };
 }
+
+
