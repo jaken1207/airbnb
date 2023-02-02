@@ -1,5 +1,6 @@
 import styles from '@/styles/Home.module.css'
 import Banner from 'components/Banner'
+import Footer from 'components/Footer'
 import Header from 'components/Header'
 import LargeCard from 'components/LargeCard'
 import MediumCard from 'components/MediumCard'
@@ -55,6 +56,8 @@ export default function Home({ exploreData,cardsData }) {
           />
         </section>
       </main>
+
+      <Footer />
     </div>
   )
 }
